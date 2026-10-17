@@ -1,0 +1,29 @@
+%% As-is: NYC DOT street-maintenance request handling (derived from 2025 311 records)
+flowchart TB
+    subgraph S1["1 · Intake (311)"]
+        direction LR
+        A([Resident reports issue<br/>phone / web / app]):::step --> B[311 creates request and<br/>routes to DOT by complaint type]:::step
+        B --> B2[No photo, location or<br/>permit check]:::pain
+    end
+    subgraph S2["2 · DOT queue and inspection"]
+        direction LR
+        C[DOT queue<br/>no aging trigger]:::pain --> D[Inspector dispatched]:::step --> E{Defect found<br/>and DOT asset?}:::step
+        E -- "no defect / duplicate / no info" --> X1([Close: failure demand<br/>39% of Street Condition]):::pain
+        E -- "not DOT asset" --> X2([Refer to DEP / utility<br/>8,522 misroutes, median 2.2 d]):::pain
+        T["Street lights: 15% wait > 30 d<br/>= 75% of their waiting"]:::pain -.- C
+    end
+    subgraph S3["3 · Repair and closure"]
+        direction LR
+        G{Who repairs?}:::step -- DOT crew --> H[Repair]:::step
+        G -- "owner / contractor" --> I[Notice, CAR or summons<br/>30-day window]:::step
+        H --> J([Close request]):::endnode
+        I --> J
+        J --> K["Resolution text: 46% say<br/>'see DOT website' (no outcome)"]:::pain
+    end
+    S1 --> S2
+    S2 -- "defect found, DOT asset" --> S3
+
+    classDef pain fill:#FDECEC,stroke:#D64545,color:#7F1D1D
+    classDef good fill:#E6F4F1,stroke:#2A9D8F,color:#134E4A
+    classDef step fill:#EEF2F7,stroke:#1F3A5F,color:#1F2937
+    classDef endnode fill:#1F3A5F,stroke:#1F3A5F,color:#FFFFFF

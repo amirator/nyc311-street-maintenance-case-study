@@ -1,0 +1,13 @@
+descriptor,requests,pct_repaired,pct_no_defect,pct_wrong_agency,pct_duplicate,pct_failure_demand,failure_demand_requests,median_days
+Pothole,38438,70.9,11.9,0.0,8.8,20.7,7967.0,0.91
+Cave-in,9647,1.0,22.6,57.6,0.0,80.8,7798.0,2.32
+Blocked - Construction,4245,0.3,71.0,10.0,0.0,81.4,3454.0,2.03
+Defective Hardware,5490,0.2,21.6,37.9,0.0,59.8,3283.0,1.85
+Failed Street Repair,3487,2.4,41.4,25.2,0.0,67.2,2344.0,2.71
+Plate Condition - Noisy,2927,0.0,23.2,14.8,0.0,38.0,1113.0,1.06
+"Rough, Pitted or Cracked Roads",3121,7.6,5.5,8.6,0.0,16.7,521.0,0.92
+Dumpster - Construction Waste,584,0.0,73.6,7.7,0.0,81.3,475.0,2.11
+Plate Condition - Shifted,622,0.5,39.1,14.3,0.0,53.9,335.0,1.2
+Line/Marking - After Repaving,507,0.0,0.4,0.4,0.0,0.8,4.0,14.8
+Wear & Tear,291,89.3,0.3,0.0,0.0,0.3,1.0,
+Line/Marking - Faded,386,0.0,0.0,0.0,0.0,0.0,0.0,14.74

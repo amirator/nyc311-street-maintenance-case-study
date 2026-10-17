@@ -1,0 +1,10 @@
+complaint_type,open_requests,median_age_days,p90_age_days
+Street Condition,3477,457.0,575.0
+Street Light Condition,1514,449.0,628.0
+Sidewalk Condition,23,337.0,435.0
+Street Sign - Missing,9,358.0,523.0
+SNW,8,618.0,618.0
+Street Sign - Damaged,7,312.0,487.0
+Traffic Signal Condition,5,382.0,493.0
+Street Sign - Dangling,3,304.0,309.0
+Highway Condition,1,338.0,338.0

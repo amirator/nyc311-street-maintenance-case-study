@@ -1,0 +1,2 @@
+requests,distinct_ids,closed,still_open_at_snapshot,closed_before_created_excluded,closed_same_minute,missing_created,first_created,last_created,snapshot_at
+212103,212103,207056.0,5047.0,835.0,8292.0,0.0,2025-01-01 00:02:00,2025-12-31 23:57:00,2026-10-17 07:56:07

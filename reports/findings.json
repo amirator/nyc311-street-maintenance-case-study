@@ -1,0 +1,156 @@
+{
+  "requests": 212103,
+  "snapshot_at": "2026-10-17 07:56:07",
+  "closed_before_created": 835,
+  "still_open": 5047,
+  "still_open_median_age_days": 457.0,
+  "median_days_all": 1.93,
+  "p90_days_all": 17.5,
+  "total_request_days": 2116553.0,
+  "pct_outcome_not_published": 46.2,
+  "street_light_pct_requests": 15.27,
+  "street_light_pct_request_days": 42.84,
+  "top4_cum_pct_request_days": 75.07,
+  "sl_out_requests": 24380,
+  "sl_tail_pct_requests": 15.2,
+  "sl_tail_pct_request_days": 74.9,
+  "sl_borough_max": {
+    "borough": "Manhattan",
+    "p90": 89.6,
+    "median": 4.4
+  },
+  "sl_borough_min": {
+    "borough": "Staten Island",
+    "p90": 29.1
+  },
+  "sl_winter_p90_range": [
+    61.8,
+    85.7
+  ],
+  "sl_july_p90": 39.5,
+  "street_condition_requests": 70330,
+  "street_condition_failure_demand": 27506,
+  "street_condition_pct_failure_demand": 39.1,
+  "cavein_pct_wrong_agency": 57.6,
+  "hardware_pct_wrong_agency": 37.9,
+  "blocked_pct_no_defect": 71.0,
+  "pothole_pct_repaired": 70.9,
+  "pothole_median_days": 0.91,
+  "sidewalk_pct_third_party": 56.0,
+  "impacts": {
+    "R1": {
+      "title": "Route sewer / utility conditions to the right agency at intake",
+      "scope": "Street Condition: Cave-in, Defective Hardware, Failed Street Repair",
+      "baseline": {
+        "misrouted_requests": 8522,
+        "days_until_referral_total": 29786,
+        "median_days_until_referral": 2.2,
+        "pct_referred_to_dep": 88.3
+      },
+      "estimate": {
+        "low": {
+          "handlings_avoided": 2130,
+          "citizen_days_saved": 7447
+        },
+        "base": {
+          "handlings_avoided": 4261,
+          "citizen_days_saved": 14893
+        },
+        "high": {
+          "handlings_avoided": 6392,
+          "citizen_days_saved": 22340
+        }
+      },
+      "assumptions": [
+        "Descriptors with >= 25% of requests later referred elsewhere",
+        "Share of those caught at intake: 25% / 50% / 75% (low / base / high)",
+        "Citizen-days saved = days the request sat with DOT before referral"
+      ]
+    },
+    "R2": {
+      "title": "Screen 'no defect' prone requests before dispatch (photo + permit check)",
+      "scope": "Street Condition: Blocked - Construction, Dumpster - Construction Waste, Failed Street Repair, Plate Condition - Shifted",
+      "baseline": {
+        "no_defect_inspections": 5131
+      },
+      "estimate": {
+        "low": {
+          "inspections_avoided": 1026,
+          "inspector_hours_freed": 1539
+        },
+        "base": {
+          "inspections_avoided": 2052,
+          "inspector_hours_freed": 3079
+        },
+        "high": {
+          "inspections_avoided": 3079,
+          "inspector_hours_freed": 4618
+        }
+      },
+      "assumptions": [
+        "Descriptors where >= 30% of inspections found no defect",
+        "Share of those visits avoided: 20% / 40% / 60%",
+        "Illustrative 1.5 inspector-hours per visit (not in the data)"
+      ]
+    },
+    "R3": {
+      "title": "Escalate street-light outages still open at day 30",
+      "scope": "Street Light Condition: Street Light Out",
+      "baseline": {
+        "requests": 24380,
+        "median_days": 9.5,
+        "p90_days": 60.6,
+        "requests_over_threshold": 3717,
+        "pct_request_days_in_tail": 74.9,
+        "excess_days_over_threshold": 369604
+      },
+      "estimate": {
+        "low": {
+          "citizen_days_saved": 92401,
+          "new_p90_days": 53.0,
+          "mean_days_before": 26.3,
+          "mean_days_after": 22.5
+        },
+        "base": {
+          "citizen_days_saved": 184802,
+          "new_p90_days": 45.3,
+          "mean_days_before": 26.3,
+          "mean_days_after": 18.8
+        },
+        "high": {
+          "citizen_days_saved": 277203,
+          "new_p90_days": 37.7,
+          "mean_days_before": 26.3,
+          "mean_days_after": 15.0
+        }
+      },
+      "assumptions": [
+        "Escalation removes 25% / 50% / 75% of each request's days beyond day 30",
+        "Requests under the threshold are unchanged (median is unaffected by design)",
+        "Still-open requests are excluded, so savings are conservative"
+      ]
+    },
+    "R4": {
+      "title": "Publish a standard outcome code on every closed request",
+      "scope": "All DOT requests (fully affected: Street Light Condition, Traffic Signal Condition)",
+      "baseline": {
+        "requests_without_published_outcome": 97937,
+        "pct_of_all_requests": 46.2
+      },
+      "estimate": {
+        "low": {
+          "requests_with_measurable_outcome": 97937
+        },
+        "base": {
+          "requests_with_measurable_outcome": 97937
+        },
+        "high": {
+          "requests_with_measurable_outcome": 97937
+        }
+      },
+      "assumptions": [
+        "No time saving claimed: this fixes measurement so first-time-fix and repeat-visit rates can be tracked for street lights and traffic signals"
+      ]
+    }
+  }
+}

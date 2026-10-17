@@ -1,0 +1,6 @@
+borough,requests,median_days,p90_days,pct_over_30_days
+MANHATTAN,3778,4.4,89.6,22.2
+QUEENS,5924,8.6,76.4,16.9
+BRONX,4862,8.6,54.6,13.8
+BROOKLYN,6274,9.7,53.0,13.5
+STATEN ISLAND,3467,9.8,29.1,9.7

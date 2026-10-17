@@ -1,0 +1,30 @@
+%% To-be: proposed process (recommendations R1-R4)
+flowchart TB
+    subgraph S1["1 · Smart intake and triage (R1, R2)"]
+        direction LR
+        A([Resident reports issue]):::step --> B[Guided questions<br/>photo + map pin for<br/>high no-defect descriptors]:::good
+        B --> C{Sewer / manhole /<br/>utility cues? R1}:::good
+        C -- yes --> X1([Route straight to<br/>DEP / utility]):::good
+        C -- no --> D{Open request at<br/>same location?}:::good
+        D -- yes --> X2([Link as duplicate,<br/>notify resident]):::good
+        D -- no --> E{Active street-work<br/>permit here? R2}:::good
+        E -- yes --> X3([Notify permit holder,<br/>no inspector visit]):::good
+    end
+    subgraph S2["2 · DOT work with aging control (R3)"]
+        direction LR
+        F[DOT triage queue]:::step --> G[Inspect and repair<br/>or issue CAR / summons]:::step
+        F --> M{Still open<br/>at day 30?}:::good
+        M -- yes --> N[Escalate: supervisor review,<br/>Con Ed / contractor chase,<br/>weekly aging report]:::good
+        N --> G
+    end
+    subgraph S3["3 · Closure and measurement (R4)"]
+        direction LR
+        H([Close with standard<br/>outcome code]):::endnode --> P[(Outcome published to Open Data:<br/>first-time-fix and failure-demand KPIs)]:::good
+    end
+    S1 -- "new DOT job" --> S2
+    S2 --> S3
+
+    classDef pain fill:#FDECEC,stroke:#D64545,color:#7F1D1D
+    classDef good fill:#E6F4F1,stroke:#2A9D8F,color:#134E4A
+    classDef step fill:#EEF2F7,stroke:#1F3A5F,color:#1F2937
+    classDef endnode fill:#1F3A5F,stroke:#1F3A5F,color:#FFFFFF

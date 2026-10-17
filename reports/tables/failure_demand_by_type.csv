@@ -1,0 +1,12 @@
+complaint_type,requests,failure_demand_requests,pct_failure_demand,pct_outcome_not_published
+Street Condition,70330,27506.0,39.1,5.0
+Traffic Signal Condition,47998,0.0,0.0,100.0
+Street Light Condition,33835,0.0,0.0,100.0
+Sidewalk Condition,25807,5639.0,21.9,20.7
+Curb Condition,8070,1110.0,13.8,16.2
+Street Sign - Damaged,5235,1064.0,20.3,23.8
+Outdoor Dining,3942,1281.0,32.5,36.3
+Street Sign - Dangling,3807,316.0,8.3,7.8
+Street Sign - Missing,3345,504.0,15.1,37.5
+Broken Parking Meter,3050,998.0,32.7,25.1
+Highway Condition,2881,695.0,24.1,11.4

@@ -1,0 +1,30 @@
+# Assumptions behind the impact estimates. Every number in the "Recommendations" section is
+# computed from the data in data/raw/ together with the values below; change them and re-run.
+# Base / low / high describe the share of the addressable problem each change removes.
+
+[r1_intake_routing]
+# Requests DOT later referred to another agency (mostly DEP) in Street Condition descriptors
+# where at least `min_wrong_agency_pct` of requests were misrouted.
+min_wrong_agency_pct = 25.0
+min_requests = 250   # ignore descriptors too small to act on
+adoption_base = 0.50
+adoption_low = 0.25
+adoption_high = 0.75
+
+[r2_pre_dispatch_screening]
+# Photo + location confirmation and an automated check against active street-work permits
+# before an inspector is dispatched, for descriptors where >= `min_no_defect_pct` found no defect.
+min_no_defect_pct = 30.0
+min_requests = 250
+avoided_base = 0.40
+avoided_low = 0.20
+avoided_high = 0.60
+# Illustrative only (not from the data): inspector hours per field visit including travel.
+hours_per_inspection = 1.5
+
+[r3_street_light_aging]
+# Escalate any "Street Light Out" request still open at day `threshold_days`.
+threshold_days = 30
+recovery_base = 0.50
+recovery_low = 0.25
+recovery_high = 0.75

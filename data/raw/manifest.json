@@ -1,0 +1,28 @@
+{
+  "dataset": "311 Service Requests from 2020 to Present (erm2-nwe9)",
+  "publisher": "City of New York, NYC Open Data (dataset attribution: 311)",
+  "dataset_page": "https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2020-to-Present/erm2-nwe9",
+  "api_endpoint": "https://data.cityofnewyork.us/resource/erm2-nwe9.csv",
+  "terms_of_use": "NYC Admin. Code 23-502(d) (Local Law 11 of 2012): no registration, license or use restrictions",
+  "filter": "agency='DOT' AND created_date between '2025-01-01T00:00:00' and '2025-12-31T23:59:59'",
+  "columns": [
+    "unique_key",
+    "created_date",
+    "closed_date",
+    "agency",
+    "complaint_type",
+    "descriptor",
+    "status",
+    "resolution_description",
+    "resolution_action_updated_date",
+    "borough",
+    "open_data_channel_type",
+    "community_board",
+    "incident_zip"
+  ],
+  "rows": 212103,
+  "sha256": "b99c4e71a7c54ef76b7256272d61108d4e743f6c7ccd8ffecbff6352b43cf5e0",
+  "downloaded_utc": "2026-10-17T11:56:07Z",
+  "file": "nyc311_dot_2025.csv",
+  "terms_url": "https://cityofnewyork.github.io/opendatatsm/LocalLaw11of2012.html"
+}

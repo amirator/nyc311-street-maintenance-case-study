@@ -1,0 +1,2 @@
+{ "theme": "base", "themeVariables": { "fontFamily": "DejaVu Sans, Arial", "fontSize": "15px", "lineColor": "#1F3A5F", "edgeLabelBackground": "#FFFFFF", "clusterBkg": "#F8FAFC", "clusterBorder": "#CBD5E1" },
+  "flowchart": { "curve": "basis", "nodeSpacing": 35, "rankSpacing": 45 } }

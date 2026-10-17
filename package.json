@@ -1,0 +1,6 @@
+{
+  "name": "nyc311-street-maintenance-case-study",
+  "private": true,
+  "description": "Only used to render the Mermaid process maps to PNG (optional).",
+  "devDependencies": { "@mermaid-js/mermaid-cli": "11.17.0" }
+}

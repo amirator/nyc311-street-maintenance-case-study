@@ -1,0 +1,28 @@
+rec,title,scenario,metric,value
+R1,Route sewer / utility conditions to the right agency at intake,low,handlings_avoided,2130.0
+R1,Route sewer / utility conditions to the right agency at intake,low,citizen_days_saved,7447.0
+R1,Route sewer / utility conditions to the right agency at intake,base,handlings_avoided,4261.0
+R1,Route sewer / utility conditions to the right agency at intake,base,citizen_days_saved,14893.0
+R1,Route sewer / utility conditions to the right agency at intake,high,handlings_avoided,6392.0
+R1,Route sewer / utility conditions to the right agency at intake,high,citizen_days_saved,22340.0
+R2,Screen 'no defect' prone requests before dispatch (photo + permit check),low,inspections_avoided,1026.0
+R2,Screen 'no defect' prone requests before dispatch (photo + permit check),low,inspector_hours_freed,1539.0
+R2,Screen 'no defect' prone requests before dispatch (photo + permit check),base,inspections_avoided,2052.0
+R2,Screen 'no defect' prone requests before dispatch (photo + permit check),base,inspector_hours_freed,3079.0
+R2,Screen 'no defect' prone requests before dispatch (photo + permit check),high,inspections_avoided,3079.0
+R2,Screen 'no defect' prone requests before dispatch (photo + permit check),high,inspector_hours_freed,4618.0
+R3,Escalate street-light outages still open at day 30,low,citizen_days_saved,92401.0
+R3,Escalate street-light outages still open at day 30,low,new_p90_days,53.0
+R3,Escalate street-light outages still open at day 30,low,mean_days_before,26.3
+R3,Escalate street-light outages still open at day 30,low,mean_days_after,22.5
+R3,Escalate street-light outages still open at day 30,base,citizen_days_saved,184802.0
+R3,Escalate street-light outages still open at day 30,base,new_p90_days,45.3
+R3,Escalate street-light outages still open at day 30,base,mean_days_before,26.3
+R3,Escalate street-light outages still open at day 30,base,mean_days_after,18.8
+R3,Escalate street-light outages still open at day 30,high,citizen_days_saved,277203.0
+R3,Escalate street-light outages still open at day 30,high,new_p90_days,37.7
+R3,Escalate street-light outages still open at day 30,high,mean_days_before,26.3
+R3,Escalate street-light outages still open at day 30,high,mean_days_after,15.0
+R4,Publish a standard outcome code on every closed request,low,requests_with_measurable_outcome,97937.0
+R4,Publish a standard outcome code on every closed request,base,requests_with_measurable_outcome,97937.0
+R4,Publish a standard outcome code on every closed request,high,requests_with_measurable_outcome,97937.0

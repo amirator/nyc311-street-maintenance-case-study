@@ -1,0 +1,149 @@
+complaint_type,outcome,requests,pct_of_type,median_days
+Bench,Repaired / completed,38,31.1,23.98
+Bench,No defect found,37,30.3,4.47
+Bench,Wrong agency / referred,25,20.5,0.78
+Bench,Outcome not published,22,18.0,7.48
+Bike Rack,Wrong agency / referred,251,40.3,2.91
+Bike Rack,Repaired / completed,231,37.1,33.35
+Bike Rack,No defect found,57,9.1,31.25
+Bike Rack,Outcome not published,54,8.7,7.06
+Bike Rack,Other,28,4.5,40.57
+Bike Rack,Third party must repair,2,0.3,16.51
+Bridge Condition,Deferred to planned work,97,40.6,3.68
+Bridge Condition,Repaired / completed,79,33.1,40.92
+Bridge Condition,No defect found,19,7.9,210.01
+Bridge Condition,Outcome not published,17,7.1,42.86
+Bridge Condition,Wrong agency / referred,14,5.9,6.0
+Bridge Condition,Other,12,5.0,2.68
+Bridge Condition,Insufficient information,1,0.4,219.07
+Broken Parking Meter,Repaired / completed,1255,41.1,7.9
+Broken Parking Meter,No defect found,980,32.1,3.6
+Broken Parking Meter,Outcome not published,766,25.1,1.91
+Broken Parking Meter,Other,31,1.0,5.03
+Broken Parking Meter,Wrong agency / referred,13,0.4,2.74
+Broken Parking Meter,Insufficient information,5,0.2,0.95
+Building Condition,Outcome not published,5,100.0,0.76
+Bus Stop Shelter Complaint,Repaired / completed,878,72.4,5.99
+Bus Stop Shelter Complaint,Outcome not published,181,14.9,3.09
+Bus Stop Shelter Complaint,Wrong agency / referred,111,9.2,0.45
+Bus Stop Shelter Complaint,No defect found,23,1.9,3.05
+Bus Stop Shelter Complaint,Insufficient information,11,0.9,1.62
+Bus Stop Shelter Complaint,Third party must repair,6,0.5,10.63
+Bus Stop Shelter Complaint,Deferred to planned work,1,0.1,1.95
+Bus Stop Shelter Complaint,Other,1,0.1,0.05
+Bus Stop Shelter Placement,Outcome not published,193,73.9,0.8
+Bus Stop Shelter Placement,Other,40,15.3,0.46
+Bus Stop Shelter Placement,Wrong agency / referred,15,5.7,0.81
+Bus Stop Shelter Placement,Repaired / completed,7,2.7,5.91
+Bus Stop Shelter Placement,No defect found,4,1.5,1.54
+Bus Stop Shelter Placement,Insufficient information,2,0.8,0.92
+Curb Condition,Third party must repair,5331,66.1,14.56
+Curb Condition,Outcome not published,1310,16.2,12.82
+Curb Condition,No defect found,719,8.9,26.11
+Curb Condition,Wrong agency / referred,368,4.6,7.12
+Curb Condition,Repaired / completed,212,2.6,14.88
+Curb Condition,Deferred to planned work,101,1.3,30.99
+Curb Condition,Insufficient information,23,0.3,14.93
+Curb Condition,Other,6,0.1,13.42
+DEP Highway Condition,Wrong agency / referred,4,100.0,145.73
+DEP Sidewalk Condition,Wrong agency / referred,1,100.0,28.01
+DEP Street Condition,Wrong agency / referred,6,54.5,3.44
+DEP Street Condition,No defect found,4,36.4,18.83
+DEP Street Condition,Deferred to planned work,1,9.1,6.95
+E-Scooter,Repaired / completed,221,44.3,1.06
+E-Scooter,No defect found,197,39.5,0.94
+E-Scooter,Outcome not published,80,16.0,0.76
+E-Scooter,Other,1,0.2,3.75
+Ferry Complaint,Insufficient information,55,32.2,2.07
+Ferry Complaint,Other,47,27.5,7.84
+Ferry Complaint,Outcome not published,38,22.2,5.4
+Ferry Complaint,No defect found,13,7.6,3.51
+Ferry Complaint,Deferred to planned work,12,7.0,2.35
+Ferry Complaint,Wrong agency / referred,5,2.9,2.58
+Ferry Complaint,Repaired / completed,1,0.6,3.81
+Ferry Inquiry,Other,364,98.1,1.92
+Ferry Inquiry,Outcome not published,6,1.6,3.6
+Ferry Inquiry,No defect found,1,0.3,1.94
+Highway Condition,Repaired / completed,1711,59.4,2.95
+Highway Condition,Wrong agency / referred,473,16.4,1.8
+Highway Condition,Outcome not published,327,11.4,14.79
+Highway Condition,No defect found,190,6.6,2.07
+Highway Condition,Deferred to planned work,147,5.1,1.94
+Highway Condition,Insufficient information,32,1.1,1.97
+Highway Condition,Other,1,0.0,
+Highway Sign - Damaged,Repaired / completed,58,62.4,6.58
+Highway Sign - Damaged,Outcome not published,16,17.2,3.29
+Highway Sign - Damaged,Wrong agency / referred,15,16.1,9.07
+Highway Sign - Damaged,No defect found,4,4.3,0.94
+Highway Sign - Dangling,Repaired / completed,20,95.2,5.41
+Highway Sign - Dangling,Wrong agency / referred,1,4.8,18.11
+Highway Sign - Missing,Repaired / completed,31,75.6,7.8
+Highway Sign - Missing,Outcome not published,6,14.6,31.91
+Highway Sign - Missing,Wrong agency / referred,4,9.8,32.7
+Leaning Bar,No defect found,3,100.0,5.94
+Municipal Parking Facility,Repaired / completed,26,51.0,3.73
+Municipal Parking Facility,Wrong agency / referred,13,25.5,0.84
+Municipal Parking Facility,Outcome not published,6,11.8,14.55
+Municipal Parking Facility,Insufficient information,4,7.8,1.35
+Municipal Parking Facility,Deferred to planned work,1,2.0,91.02
+Municipal Parking Facility,No defect found,1,2.0,23.99
+Outdoor Dining,Outcome not published,1432,36.3,10.84
+Outdoor Dining,Third party must repair,1203,30.5,5.74
+Outdoor Dining,No defect found,1069,27.1,5.99
+Outdoor Dining,Wrong agency / referred,212,5.4,5.02
+Outdoor Dining,Repaired / completed,23,0.6,4.87
+Outdoor Dining,Other,3,0.1,0.67
+Public Toilet,Other,22,50.0,1.43
+Public Toilet,Wrong agency / referred,18,40.9,0.58
+Public Toilet,Repaired / completed,4,9.1,6.51
+SNW,Repaired / completed,8,100.0,
+Sidewalk Condition,Third party must repair,14450,56.0,8.83
+Sidewalk Condition,Outcome not published,5344,20.7,8.61
+Sidewalk Condition,No defect found,3965,15.4,3.22
+Sidewalk Condition,Wrong agency / referred,1504,5.8,4.94
+Sidewalk Condition,Repaired / completed,204,0.8,10.78
+Sidewalk Condition,Insufficient information,170,0.7,10.0
+Sidewalk Condition,Other,134,0.5,10.75
+Sidewalk Condition,Deferred to planned work,36,0.1,8.77
+Street Condition,Repaired / completed,28194,40.1,0.96
+Street Condition,No defect found,14011,19.9,1.31
+Street Condition,Wrong agency / referred,9904,14.1,2.12
+Street Condition,Third party must repair,6669,9.5,1.38
+Street Condition,Outcome not published,3506,5.0,9.03
+Street Condition,Duplicate,3397,4.8,0.0
+Street Condition,Deferred to planned work,2441,3.5,1.59
+Street Condition,Other,1998,2.8,1.6
+Street Condition,Insufficient information,194,0.3,1.0
+Street Condition,No resolution text,16,0.0,0.46
+Street Light Condition,Outcome not published,33835,100.0,9.21
+Street Sign - Damaged,Repaired / completed,2889,55.2,7.76
+Street Sign - Damaged,Outcome not published,1245,23.8,1.6
+Street Sign - Damaged,No defect found,674,12.9,2.34
+Street Sign - Damaged,Wrong agency / referred,364,7.0,1.46
+Street Sign - Damaged,Insufficient information,26,0.5,1.3
+Street Sign - Damaged,Third party must repair,19,0.4,8.74
+Street Sign - Damaged,Other,17,0.3,1.99
+Street Sign - Damaged,Deferred to planned work,1,0.0,17.6
+Street Sign - Dangling,Repaired / completed,3186,83.7,6.53
+Street Sign - Dangling,Outcome not published,298,7.8,1.64
+Street Sign - Dangling,No defect found,231,6.1,2.25
+Street Sign - Dangling,Wrong agency / referred,80,2.1,2.62
+Street Sign - Dangling,Insufficient information,5,0.1,0.04
+Street Sign - Dangling,Other,4,0.1,5.95
+Street Sign - Dangling,Third party must repair,3,0.1,3.57
+Street Sign - Missing,Repaired / completed,1560,46.6,13.72
+Street Sign - Missing,Outcome not published,1256,37.5,1.78
+Street Sign - Missing,No defect found,387,11.6,2.03
+Street Sign - Missing,Wrong agency / referred,111,3.3,0.98
+Street Sign - Missing,Other,16,0.5,10.07
+Street Sign - Missing,Third party must repair,8,0.2,2.73
+Street Sign - Missing,Insufficient information,6,0.2,0.77
+Street Sign - Missing,No resolution text,1,0.0,
+Traffic Signal Condition,Outcome not published,47993,100.0,0.08
+Traffic Signal Condition,No resolution text,5,0.0,
+Tunnel Condition,Repaired / completed,2,50.0,133.99
+Tunnel Condition,Deferred to planned work,1,25.0,6.34
+Tunnel Condition,Insufficient information,1,25.0,133.08
+Wayfinding,Repaired / completed,14,73.7,35.73
+Wayfinding,Wrong agency / referred,4,21.1,2.89
+Wayfinding,Outcome not published,1,5.3,42.86
