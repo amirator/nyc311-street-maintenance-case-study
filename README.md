@@ -171,4 +171,4 @@ tests/                     pytest + real 1% fixture
 
 ## Author
 Mohammad Amir Khan · [github.com/amirator](https://github.com/amirator) ·
-[linkedin.com/in/amirator](https://linkedin.com/in/amirator). Code and docs MIT. Data: see [DATA.md](DATA.md).
+[linkedin.com/in/ameer-k-a31363235](https://www.linkedin.com/in/ameer-k-a31363235/). Code and docs MIT. Data: see [DATA.md](DATA.md).
