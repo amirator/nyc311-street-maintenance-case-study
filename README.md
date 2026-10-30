@@ -170,5 +170,5 @@ tests/                     pytest + real 1% fixture
   replace the assumed adoption rates.
 
 ## Author
-Mohammad Amir Khan · [github.com/amirator](https://github.com/amirator) ·
-[linkedin.com/in/ameer-k-a31363235](https://www.linkedin.com/in/ameer-k-a31363235/). Code and docs MIT. Data: see [DATA.md](DATA.md).
+Amir Khan · [github.com/amirator](https://github.com/amirator) ·
+[linkedin.com/in/amir-khan-a31363235](https://www.linkedin.com/in/amir-khan-a31363235/). Code and docs MIT. Data: see [DATA.md](DATA.md).
